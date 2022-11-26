@@ -54,6 +54,6 @@ rc-update add sshd default
 rc-update add mdev sysinit
 rc-update add devfs sysinit
 #sh # (for example, run `passwd`)
-
+echo root:VicerYYDS |sudo chpasswd root
 sync
 reboot -f
